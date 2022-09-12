@@ -28,7 +28,6 @@
                             <form class="w-full" method="POST" enctype="multipart/form-data">
                                 <div>
                                     @csrf
-
                                     <div class="flex flex-wrap -mx-3 mb-6">
                                         <div class="w-full px-3">
                                             <label
@@ -124,32 +123,6 @@
                                                 <option disabled selected>--- Pilih Kota/kabupaten ---</option>
                                             </select>
                                         </div>
-                                    </div>
-                                </div>
-
-                                {{-- <div>
-                                    <h2 class="font-semibold text-lg text-gray-800 leading-tight pb-2">
-                                        Tujuan Pengiriman :
-                                    </h2>
-
-                                    <div class="flex flex-wrap -mx-3 mb-6">
-                                        <div class="w-full px-3">
-                                            <label
-                                                class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Kota/Kabupaten
-                                                <span class="text-red-500">*</span></label>
-                                            <select name="destination_city" id="destination_city"
-                                                class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
-                                                <option disabled selected>--- Pilih Kota/kabupaten ---</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div> --}}
-                                {{-- </div> --}}
-
-                                <div class="flex flex-wrap -mx-3 mb-4">
-                                    <div class="w-full px-3">
-                                        <button type="submit"
-                                            class="bg-teal-500 hover:bg-teal-800 text-white font-bold py-2 px-4 rounded shadow-lg">Simpan</button>
                                     </div>
                                 </div>
                             </form>
